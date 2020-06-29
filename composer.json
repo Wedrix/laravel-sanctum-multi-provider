@@ -1,5 +1,5 @@
 {
-    "name": "storekd/laravel-sanctum",
+    "name": "wedrix/laravel-sanctum",
     "description": "Fork of Laravel Sanctum to allow for multi-provider authentication support.",
     "keywords": ["laravel", "sanctum", "auth"],
     "license": "MIT",

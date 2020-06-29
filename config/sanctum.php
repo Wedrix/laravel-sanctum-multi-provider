@@ -51,11 +51,11 @@ return [
     |
     | Specify the strategy used in resolving the guard for multi-provider authentication
     | 
-    | Supported: 'path-based','request-based'
+    | Supported: 'path-based','request-based',null
     |
     */
 
-    'guard_resolution_strategy' => env('SANCTUM_GUARD_RESOLUTION_STRATEGY'),
+    'guard_resolution_strategy' => env('SANCTUM_GUARD_RESOLUTION_STRATEGY',null),
 
     /*
     |--------------------------------------------------------------------------
