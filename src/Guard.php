@@ -106,7 +106,7 @@ class Guard
     }
 
     /**
-     * Get the appropriate guard for spa authentication
+     * Get the appropriate guard for SPA authentication
      *
      * @param  \Illuminate\Http\Request  $request
      * @return string
@@ -123,6 +123,6 @@ class Guard
             }
         }
 
-        return config('sanctum.guard', 'web');
+        return config('sanctum.guard');
     }
 }

@@ -46,6 +46,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Defualt Sanctum Guard
+    |--------------------------------------------------------------------------
+    |
+    | Set this to override the default Guard
+    |
+    */
+
+    'guard' => null,
+
+    /*
+    |--------------------------------------------------------------------------
     | Guard Resolution Strategy Used In Multi-provider Authentication
     |--------------------------------------------------------------------------
     |
@@ -55,7 +66,7 @@ return [
     |
     */
 
-    'guard_resolution_strategy' => env('SANCTUM_GUARD_RESOLUTION_STRATEGY',null),
+    'guard_resolution_strategy' => 'path-based',
 
     /*
     |--------------------------------------------------------------------------
